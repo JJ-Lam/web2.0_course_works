@@ -1,0 +1,46 @@
+body{
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia,Garamond,serif;
+	background-image: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+a{
+	color: #A4A400;
+}
+
+h1,h2{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: Century Gothic, Futura, Verdana, sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.2em;
+}
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 22pt;
+}
+
+h2{
+	font-weight: normal;
+	text-align: left;
+	font-size: 18pt;
+}
+
+.comment{
+	background-color: #FFFFC8;
+}
+
+.sublist{
+	list-style: circle;
+}
+
+/*将列表项的圆点符号为馅饼图标，注意这里的selector不能去掉.sublist，因为类选择符的优先级比元素选择符要高*/
+ul,.sublist{
+	list-style-image: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
